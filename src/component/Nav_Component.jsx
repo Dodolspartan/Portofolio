@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa"; // Mengimpor ikon dari react-icons/fa
+import image3 from "../asset/404309179_1401811587420983_3285425996600780435_n.jpg";
 function Nav_Component() {
   const [activeIndex, setActiveIndex] = useState(0);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,9 +18,9 @@ function Nav_Component() {
       <div className="navbar-start">
         <div className="w-11 rounded-full">
           <img
-            className="rounded-full"
+            className="rounded-full border border-gray-900"
             alt="Tailwind CSS Navbar component"
-            src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
+            src={image3}
           />
         </div>
         <div className="dropdown dropdown-end">

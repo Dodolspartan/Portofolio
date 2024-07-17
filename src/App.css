@@ -54,6 +54,7 @@ body {
     display: flex;
     justify-content: center;
     z-index: 9999;
+    font-family: var(--font-family-p);
 }
 
 .element-navbar-component .navbar-start {
